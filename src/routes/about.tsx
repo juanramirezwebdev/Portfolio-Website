@@ -1,4 +1,4 @@
-import * as React from 'react'
+
 import { FileRoute } from '@tanstack/react-router'
 
 export const Route = new FileRoute('/about').createRoute({
