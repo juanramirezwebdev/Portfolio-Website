@@ -9,7 +9,7 @@ export const Route = new RootRoute({
 function RootComponent() {
   return (
     <>
-      <div className="p-2 flex gap-2 text-lg">
+      <div className="p-2 flex gap-2 text-lg bg-[#446ce4d5] justify-center">
         <Link
           to="/"
           activeProps={{
