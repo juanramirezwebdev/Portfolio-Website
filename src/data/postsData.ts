@@ -19,7 +19,7 @@ const posts = [
     {
       id: 2,
       title: 'Spiderman website',
-      href: 'https://juanramirezwebdev.github.io/Spiderman-responsive-website/index.html',
+      href: 'https://juanramirezwebdev.github.io/Spiderman-website/',
       description:
         'Created a web-based application utilizing HTML, CSS, and Bootstrap, providing users with an engaging platform to explore the world of Spiderman and access his information',
       date: ' 2022',
