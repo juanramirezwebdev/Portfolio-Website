@@ -1,6 +1,7 @@
 
 import { Link, Outlet, RootRoute } from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/router-devtools'
+import Footerw from '../components/footer'
+
 
 export const Route = new RootRoute({
   component: RootComponent,
@@ -45,8 +46,11 @@ function RootComponent() {
         </Link>
       </div>
       <hr />
+     
       <Outlet />
-      <TanStackRouterDevtools position="bottom-right" />
+      <Footerw/>
+
+          
     </>
   )
 }

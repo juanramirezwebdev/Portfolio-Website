@@ -6,6 +6,7 @@ import { Route as IndexImport } from './routes/index'
 import { Route as ContactImport } from './routes/contact'
 import { Route as PdImport } from './routes/mentors'
 
+
 // Create/Update Routes
 
 const AboutRoute = AboutImport.update({
@@ -16,7 +17,7 @@ const AboutRoute = AboutImport.update({
 const IndexRoute = IndexImport.update({
   path: '/',
   getParentRoute: () => rootRoute,
-} as any)
+  } as any)
 
 const PdRoute = PdImport.update({
     path: '/mentors',
@@ -49,7 +50,5 @@ declare module '@tanstack/react-router' {
       }
   }
 }
-
-// Create and export the route tree
 
 export const routeTree = rootRoute.addChildren([IndexRoute, AboutRoute, ContactRoute, PdRoute])

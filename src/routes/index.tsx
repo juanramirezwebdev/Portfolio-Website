@@ -37,3 +37,5 @@ function HomeComponent() {
     </div>
   )
 }
+
+export default HomeComponent;
